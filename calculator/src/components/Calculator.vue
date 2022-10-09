@@ -30,10 +30,11 @@ const counterStore = useCounterStore()
 .history-results {
     display: grid;
     max-width: 200px;
-    background: gray;
+    background: var(--secondary-color);
     justify-items: end;
+    border: 2px solid black;
+    border-radius: 24px 0px 0px 0px;
 }
-
 .history-results p {
     font-weight: 200;
     padding: 0px;
@@ -41,7 +42,7 @@ const counterStore = useCounterStore()
 }
 .history-results h2 {
     color: white;
-    font-weight: 500;
+    font-weight: 700;
     margin: 16px 8px;
 }
 
@@ -50,6 +51,6 @@ const counterStore = useCounterStore()
     justify-content: space-between;
     max-width: 200px;
     flex-wrap: wrap;
-    background: blue;
+    background: var(--primary-color);
 }
 </style>

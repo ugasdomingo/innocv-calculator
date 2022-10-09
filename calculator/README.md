@@ -1,6 +1,8 @@
 # calculator
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a caculator for a Technical test made by INNOCV Company. In this 1.0.0 version you can use it for basic math operations.
+
+At next version 1.1.0 you will have more math operations.
 
 ## Recommended IDE Setup
 

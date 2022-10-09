@@ -15,6 +15,11 @@ const counterStore = useCounterStore()
     </header>
 
     <main>
+        <img
+            class="img-hero"
+            src="https://images.pexels.com/photos/1314529/pexels-photo-1314529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Background"
+        />
         <Calculator />
     </main>
 
@@ -23,4 +28,15 @@ const counterStore = useCounterStore()
     </footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+.img-hero {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.15;
+    object-fit: cover;
+}
+</style>
